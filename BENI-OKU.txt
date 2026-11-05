@@ -1,0 +1,7 @@
+SOUNDORA - APK NASIL ALINIR
+1) github.com'da bos bir depo olustur.
+2) Bu klasorun icindeki HER SEYI yukle.
+3) Depoda "Add file > Create new file" de, dosya adina su yaz:
+   .github/workflows/build.yml
+   Icerik olarak bu klasordeki build.yml dosyasinin icindekini yapistir.
+4) Commit changes. Actions sekmesinden APK'yi indir.
