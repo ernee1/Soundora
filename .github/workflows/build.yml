@@ -28,7 +28,8 @@ jobs:
       - name: Hatalari goster
         if: failure()
         working-directory: ${{ env.PROJ }}
-        run: grep -E "^e: |What went wrong|error:|Execution failed" -A4 build.log | head -60
+        run: |
+          grep -E "^e: |What went wrong|error:|Execution failed" -A4 build.log | head -60
       - uses: actions/upload-artifact@v4
         with:
           name: Soundora-APK
